@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 70px;
+    font-family: sans-serif;
+}
+
+/* HEADER */
+
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    background-color: #1a2642;
+    padding-right: 20px;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+ul a{
+    position: relative;
+    top: 20px;
+    right: 20px;
+    display: block;
+    padding: 15px;
+    color: #A3BCF9;
+    text-decoration: none;
+    font-size: 20px;
+}
+ul li a:hover {
+    color: #f1ebeb;
+}
+
+#logo{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 60px;
+    height: 60px;
+}
+
+/* End HEADER */
+
+.intro{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+}
+
+/* BOOTSTRAP GRID */
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.col{
+    flex: 1;
+}
+.col img{
+    max-width: 80%;
+    margin: 10%;
+}
+#first{
+    background-color: #b9cff7;
+}
+#second{
+    background-color: #f1ebeb;
+}
+#third{
+    background-color: #b9cff7;
+}
+
+/* End BOOTSTRAP GRID */
+
+h2 {
+    font-size: 25px;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* FORM */
+.form{
+
+    line-height: 1.5;
+    background-color: #f1ebeb;
+    text-align: center;
+}
+form{
+    margin-right: 30%;
+    margin-left: 30%;
+}
+/* End FORM */
+
+/* FOOTER */
+ .footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1a2642;
+    color: rgb(220, 216, 224);
+
+ }
+ .footer a {
+    text-decoration: none;
+    color: rgb(220, 216, 224);
+    padding: 15px;
+ }
+ .footer a:hover{
+    color: #A3BCF9;
+ }
+/* End FOOTER */
+
+
