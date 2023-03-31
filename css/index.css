@@ -6,56 +6,14 @@
 body{
     margin-top: 70px;
     font-family: sans-serif;
+    line-height: 20px;
 }
 
-/* HEADER */
-
-.header{
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    background-color: #1a2642;
-    padding-right: 20px;
-    padding: 10px;
-}
-ul{
-    list-style: none;
-}
-ul li{
-    display: inline-block;
-}
-ul a{
-    position: relative;
-    top: 20px;
-    right: 20px;
-    display: block;
-    padding: 15px;
-    color: #A3BCF9;
-    text-decoration: none;
-    font-size: 20px;
-}
-ul li a:hover {
-    color: #f1ebeb;
-}
-
-#logo{
-    position: absolute;
-    top: 20px;
-    left: 15px;
-    width: 60px;
-    height: 60px;
-}
-
-/* End HEADER */
 
 .intro{
     background-image: url(../img/header.jpg);
     background-size: cover;
-    height: 300px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,26 +30,31 @@ ul li a:hover {
 }
 .row{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
     flex-wrap: wrap;
     padding-top: 20px;
 }
 .col{
     flex: 1;
+    
 }
-.col img{
-    max-width: 80%;
-    margin: 10%;
+.imagine{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
 }
 #first{
     background-color: #b9cff7;
+    padding-bottom: 20px;
 }
 #second{
     background-color: #f1ebeb;
+    padding-bottom: 20px;
 }
 #third{
     background-color: #b9cff7;
+    padding-bottom: 20px;
 }
 
 /* End BOOTSTRAP GRID */
@@ -99,7 +62,10 @@ ul li a:hover {
 h2 {
     font-size: 25px;
     line-height: 1.25;
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
+    font-weight: 600;
+
+
 }
 
 p {
@@ -121,22 +87,5 @@ form{
 }
 /* End FORM */
 
-/* FOOTER */
- .footer{
-    display: flex;
-    justify-content: space-around;
-    background-color: #1a2642;
-    color: rgb(220, 216, 224);
-
- }
- .footer a {
-    text-decoration: none;
-    color: rgb(220, 216, 224);
-    padding: 15px;
- }
- .footer a:hover{
-    color: #A3BCF9;
- }
-/* End FOOTER */
 
 
