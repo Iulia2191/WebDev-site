@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    margin-top: 70px;
+    margin-top: 80px;
     font-family: sans-serif;
     line-height: 1.7;
     font-size: 20;
@@ -43,7 +43,7 @@ body{
     border-radius: 15px;
     max-width: 80%;
 }
-span{
+section span{
     border: 1px solid gray;
     padding: 20px;
     margin: 20px;

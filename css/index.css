@@ -1,3 +1,16 @@
+:root{
+    --bg-color: #1a2642;
+    --bg-color2: #b9cff7;
+    --bg-colo3: #f1ebeb;
+    --color: #A3BCF9;
+    --color2: #f1ebeb;
+    --color3: rgb(220, 216, 224);
+    --spacing-medium: 1rem;
+    --mobile-logo-height: 45px;
+    --bg-color4: #b9cff7;
+ 
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -40,20 +53,21 @@ body{
     
 }
 .imagine{
-    width: 500px;
-    height: 300px;
+   
+    max-width: 80%;
+    margin: 10%;
     object-fit: cover;
 }
 #first{
-    background-color: #b9cff7;
+    background-color:var(--bg-color4);
     padding-bottom: 20px;
 }
 #second{
-    background-color: #f1ebeb;
+    background-color: var(--color2);
     padding-bottom: 20px;
 }
 #third{
-    background-color: #b9cff7;
+    background-color: var(--bg-color4);
     padding-bottom: 20px;
 }
 
@@ -75,10 +89,14 @@ p {
 }
 
 /* FORM */
-.form{
-
-    line-height: 1.5;
+.formular{
     background-color: #f1ebeb;
+}
+.form{
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.5;
     text-align: center;
 }
 form{
@@ -86,6 +104,4 @@ form{
     margin-left: 30%;
 }
 /* End FORM */
-
-
 

@@ -13,14 +13,28 @@
 * {
     box-sizing: border-box;
 }
+h1 {
+    font-size: 50px;
+    line-height: 1.05;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.25;
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
 h4{
     font-weight: 600;
     font-size: 30px;
 }
-p{
-    line-height: 32px;
-    font-size: large;
-}
+
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
@@ -163,7 +177,9 @@ nav a:hover {
         background-color: var(--bg-color);
     }
 }
-
+.section{
+    margin-bottom: 20px;
+ }
 /* Footer */
 .footer{
     display: flex;
@@ -180,3 +196,5 @@ nav a:hover {
  .footer a:hover{
     color:var(--color);
  }
+ 
+ 

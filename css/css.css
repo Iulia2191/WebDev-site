@@ -41,8 +41,9 @@ body{
 }
 .img img{
     border-radius: 15px;
+    max-width: 80%;
 }
-span{
+section span{
     border: 1px solid gray;
     padding: 20px;
     margin: 20px;

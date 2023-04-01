@@ -8,10 +8,12 @@ body{
     font-family: sans-serif;
     line-height: 1.7;
     font-size: 20;
-    background-color: whitesmoke
-   
+    background-color: whitesmoke;
 }
+
+
 .intro{
+    
     background-image: url(../img/header.jpg);
     background-size: cover;
     height: 450px;
@@ -21,6 +23,7 @@ body{
     align-items: center;
     text-align: center;
     font-size: larger;
+    padding-top: 40px;
 }
 .section{
     padding: 40px 25px 0px 25px;
@@ -38,10 +41,7 @@ body{
 }
 .img img{
     border-radius: 15px;
+    max-width: 80%;
 }
-span{
-    border: 1px solid rgb(201, 199, 199);
-    padding: 15px;
-    background-color: rgb(235, 235, 235);
-    border-radius: 10px;
-}
+
+
