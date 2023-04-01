@@ -1,5 +1,5 @@
 :root{
-    --bg-color: #1a2642;
+    --bg-color: #2b2c32;
     --bg-color2: #b9cff7;
     --bg-colo3: #f1ebeb;
     --color: #A3BCF9;
@@ -8,7 +8,6 @@
     --spacing-medium: 1rem;
     --mobile-logo-height: 45px;
 }
-
 
 * {
     box-sizing: border-box;

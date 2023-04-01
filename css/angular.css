@@ -43,13 +43,7 @@ body{
     border-radius: 15px;
     max-width: 80%;
 }
-section span{
-    border: 1px solid gray;
-    padding: 20px;
-    margin: 20px;
-    background-color: lightgray;
-    border-radius: 10px;
-}
+
 
 .second ul{
     list-style-type: square;
