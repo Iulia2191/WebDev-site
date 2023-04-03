@@ -1,7 +1,7 @@
 :root{
-    --bg-color: #2b2c32;
-    --bg-color2: #b9cff7;
-    --bg-colo3: #f1ebeb;
+    --bg-color: #1c2121;
+    --bg-color2: #0082C6;
+    --bg-color3: #f1ebeb;
     --color: #A3BCF9;
     --color2: #f1ebeb;
     --color3: rgb(220, 216, 224);
@@ -103,7 +103,7 @@ nav img {
 }
 
 nav .menu-icon {
-    color: whitesmoke;
+    color: var(--bg-color2);
     display: none;
 }
 
@@ -120,13 +120,13 @@ nav li {
 }
 
 nav a {
-    color: var(--color2);
+    color: var(--bg-color2);
     padding-left: 20px;
   
 }
 
 nav a:hover {
-    color: var(--bg-color2);
+    color: var(--color);
 }
 
 
@@ -189,7 +189,7 @@ nav a:hover {
  }
  .footer a {
     text-decoration: none;
-    color: var(--color2);
+    color: var(--bg-color2);
     padding: 15px;
  }
  .footer a:hover{
