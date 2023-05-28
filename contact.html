@@ -1,61 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/main.css">
-    <!-- Icons -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-    <title>Contact</title>
-</head>
-<body>
-    <nav>
-        <div class="container">
-                   <a href="index.html"><img src="img/logo.png.png" alt="Logo Web Development" id="logo"></a>
-    
-            <div class="menu-icon-container">
-                <span class="material-icons menu-icon"> menu </span>
-                <input type="checkbox" />
-                <ul>
-                    <li><a href="html.html">HTML</a></li>
-                    <li><a href="css.html">CSS</a></li>
-                    <li><a href="javascript.html">JavaScript</a></li>
-                    <li><a href="angular.html">Angular</a>           
-            </div> 
-        </div>  
-        </nav>
-    <div class="form">
-        <h3>CONTACT</h3>
-        <h3 class="pt-4">Daca ai intrebari sau vrei sa ne lsai un mesaj te rugam sa iti completezi datele mai jos.</h3>
-        <form>
-            <div class="mb-3">
-                <label for="name" class="form-label">Nume:</label>
-                <input type="text" class="form-control" id="name">
-              </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="name@example.com">
-              </div>
-              <div class="mb-3">
-                <label for="comment" class="form-label">Scrie-ne un mesaj</label>
-                <textarea class="form-control" id="comment" rows="3" placeholder="Mesajul tau"></textarea>
-              </div>
-              <button type="button" class="btn btn-primary mb-3">Adauga</button>
-        </form>
-    </div>
-    <footer>
-        <div class="footer">
-            <a href="index.html">Acasa</a>
-            <a href="contact.html">Contact</a>
-        </div>
-    </footer>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/main.css">
+        <!-- Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet" />
+        <title>Contact</title>
+    </head>
+    <body>
+        <nav>
+            <div class="container">
+                <a href="index.html"><img src="img/logo.png.png"
+                        alt="Logo Web Development" id="logo"></a>
 
+                <div class="menu-icon-container">
+                    <span class="material-icons menu-icon"> menu </span>
+                    <input type="checkbox" />
+                    <ul>
+                        <li><a href="html.html">HTML</a></li>
+                        <li><a href="css.html">CSS</a></li>
+                        <li><a href="javascript.html">JavaScript</a></li>
+                        <li><a href="angular.html">Angular</a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="form">
+                    <h3>CONTACT</h3>
+                    <h3 class="pt-4">Daca ai intrebari sau vrei sa ne lasi un
+                        mesaj te rugam sa iti completezi datele mai jos.</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nume:</label>
+                            <input type="text" class="form-control" id="name">
+                            <div class="name-message-error"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email"
+                                placeholder="name@example.com">
+                            <div class="email-message-error"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="comment" class="form-label">Scrie-ne un
+                                mesaj</label>
+                            <textarea class="form-control" id="comment" rows="3"
+                                placeholder="Mesajul tau"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-3">Adauga</button>
+                    </form>
+                    <div class="form-result"></div>
+                </div>
+                <footer>
+                    <div class="footer">
+                        <a href="index.html">Acasa</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </footer>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>   
-</body>
-</html>
+                <script
+                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                    crossorigin="anonymous"></script>
+                <script src="./js/script.js"></script>
+            </body>
+        </html>
